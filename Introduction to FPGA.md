@@ -68,7 +68,8 @@ from 0 to 1). When a Flip-Flop sees a rising edge of the clock, it registers the
 the Input D to the Output Q
 
 ## Lookup Tables(LUT)
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/a53d8719-863d-473d-b716-2e83eb5c3cd6)
+
 
 A lookup table (LUT) determines what the output is for any given input(s). In the context of 
 combinational logic, it is the truth table and defines how combinatorial logic behaves. A truth table 
@@ -117,7 +118,8 @@ functions, leading to impractical sizes
 PLEs and other implementation methods
 
 ## MUXIPLIERS
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/b8a5224d-ce30-4cc1-b4eb-f845fc3db6c7)
+
 
 The inputs to the mux are a,b,c,d,e,f, sel, the output is out. a,b,c,d,e,f, are the Data inputs 
 that get selected to the output. sel is the control signal. Muxes comes in all possible 
@@ -132,7 +134,8 @@ A decoder takes a binary value and turns it into a one-hot signal. An encoder tu
 binary number. These can be used to make a one-hot multiplexer accept binary values.
 
 ## DSP Slices
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/cf0afdda-cdf6-44cc-89fe-32efe2d7fb4c)
+
 
 A DSP slice, or sometimes referred to as a block or cell, is one of the specialized components in an 
 FPGA. It carries out digital signal processing functions, like filtering or multiplying, more efficiently 
@@ -157,7 +160,8 @@ but that would be done with a device like an SRAM, DRAM, EPROM, SD Card, etc.
 
 **Single Port BRAM Configuration**
 
-![alt text](image-6.png)
+![image](https://github.com/user-attachments/assets/924462b7-3005-433a-8cb9-3938696c84ea)
+
 
 The Single Port Block RAM configuration is useful when there is just one interface that needs to 
 retrieve data. This is also the simplest configuration and is useful for some applications. One example 
@@ -176,7 +180,8 @@ will need a Dual Port Block RAM!
 
 **Dual Port BRAM Configuration**
 
-![alt text](image-7.png)
+![image](https://github.com/user-attachments/assets/de5acfb9-ff17-4dc3-ac7c-b167c948afc3)
+
 
 The Dual Port Block RAM (or DPRAM) configuration behaves exactly the same way as the single 
 port configuration, except you have another port available for reading and writing data. Both Port A 
