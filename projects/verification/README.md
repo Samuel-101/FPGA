@@ -52,4 +52,8 @@ A batch script extracts the sum (o) and carry (c) output signals from the VCD fi
     
 A Perl script is used to compare the simulation results (outputs) with the expected values. It reads the actual outputs from the VCD file and compares them to a predefined set of expected outputs, ensuring the half-adder works as intended. If the values match, it reports "Matching"; otherwise, it reports "Not Matching."
 
- 
+
+**RTL simulation from Quartus**
+
+![image](https://github.com/user-attachments/assets/026743ba-cc52-4503-a41a-30422801e83c)
+
