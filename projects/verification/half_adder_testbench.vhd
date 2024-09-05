@@ -31,7 +31,7 @@ architecture test of half_adder_testbench is
     -- They are initialized to '0'.
 
 begin
-    half_adder: half_adder port map(a => a, b => b, o => o, c => c);
+    uut: half_adder port map(a => a, b => b, o => o, c => c);
     -- Instantiates the half adder and maps the signals to the component's ports.
     -- 'a' and 'b' are inputs, 'o' and 'c' are the outputs.
 
