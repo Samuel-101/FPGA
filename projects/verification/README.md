@@ -14,25 +14,25 @@
 
 ## DESIGN FLOW 
 
-**VHDL RTL Code:**
+#### VHDL RTL Code:
 
     half_adder.vhd
 
 The first step involves designing the half-adder using VHDL. The RTL code defines how the half-adder computes the sum and carry outputs from two input bits using simple logic gates (XOR for sum, AND for carry).
 
-**Testbench:**
+#### Testbench:
 
     half_adder_testbench.vhd
 
 A VHDL testbench is created to apply a set of input combinations ('00', '01', '10', '11') to the half-adder and observe the corresponding outputs. This testbench also captures any unexpected behavior by using assert statements to indicate when the test completes.
 
-**Perl Script:**
+#### Perl Script:
 
     perl_script.pl
 
 Finally, an automation script compiles and simulates the VHDL files using GHDL, launches the simulation in GTKWave (a waveform viewer), and runs the Perl script to verify that the half-adder behaves correctly.
 
-**Simulation:**
+#### Simulation:
 
     dump.vcd
     
@@ -40,20 +40,26 @@ This file is obtained when we run the perl script, ie while the design and testb
 
 The testbench is simulated using GHDL, a VHDL simulator. The simulation runs the half-adder for different input combinations, and the waveforms are recorded in a VCD (Value Change Dump) file.
 
-**Batch File:**
+#### Batch File:
     
     batch.bat
 
 A batch script extracts the sum (o) and carry (c) output signals from the VCD file and saves them into a text file. This allows for easy extraction of the results from the simulation.
 
-**Verification Script:**
+#### Verification Script:
 
     verification_script.pl
     
 A Perl script is used to compare the simulation results (outputs) with the expected values. It reads the actual outputs from the VCD file and compares them to a predefined set of expected outputs, ensuring the half-adder works as intended. If the values match, it reports "Matching"; otherwise, it reports "Not Matching."
 
+## Output
 
-**RTL simulation from Quartus**
+#### RTL simulation from Quartus
 
 ![image](https://github.com/user-attachments/assets/026743ba-cc52-4503-a41a-30422801e83c)
+
+#### Output from GTKwave
+
+![image](https://github.com/user-attachments/assets/04705465-1382-418d-a3d3-02729697d2f7)
+
 
