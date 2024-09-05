@@ -52,7 +52,8 @@ logic function. The individual CLB contains a number of discrete logic component
 tables (LUTs) and flip-flops.
 
 ## Flip-Flops
-![image](https://github.com/user-attachments/assets/8efa6daa-739e-4b5e-b7a6-68aff1ababc0)
+  <img src="https://github.com/user-attachments/assets/8efa6daa-739e-4b5e-b7a6-68aff1ababc0" width="300"/>
+
 
 
 A flip-flop is a circuit that has two stable states and can be used to store state information. Flip-flops 
@@ -68,7 +69,7 @@ from 0 to 1). When a Flip-Flop sees a rising edge of the clock, it registers the
 the Input D to the Output Q
 
 ## Lookup Tables(LUT)
-![image](https://github.com/user-attachments/assets/a53d8719-863d-473d-b716-2e83eb5c3cd6)
+  <img src="https://github.com/user-attachments/assets/a53d8719-863d-473d-b716-2e83eb5c3cd6" width="300"/>
 
 
 A lookup table (LUT) determines what the output is for any given input(s). In the context of 
@@ -118,7 +119,7 @@ functions, leading to impractical sizes
 PLEs and other implementation methods
 
 ## MUXIPLIERS
-![image](https://github.com/user-attachments/assets/b8a5224d-ce30-4cc1-b4eb-f845fc3db6c7)
+  <img src="https://github.com/user-attachments/assets/b8a5224d-ce30-4cc1-b4eb-f845fc3db6c7" width="300"/>
 
 
 The inputs to the mux are a,b,c,d,e,f, sel, the output is out. a,b,c,d,e,f, are the Data inputs 
@@ -134,7 +135,7 @@ A decoder takes a binary value and turns it into a one-hot signal. An encoder tu
 binary number. These can be used to make a one-hot multiplexer accept binary values.
 
 ## DSP Slices
-![image](https://github.com/user-attachments/assets/cf0afdda-cdf6-44cc-89fe-32efe2d7fb4c)
+  <img src="https://github.com/user-attachments/assets/cf0afdda-cdf6-44cc-89fe-32efe2d7fb4c" width="300"/>
 
 
 A DSP slice, or sometimes referred to as a block or cell, is one of the specialized components in an 
@@ -159,8 +160,7 @@ Many processing functions do not fit within the configurable logic of an FPGA ch
 but that would be done with a device like an SRAM, DRAM, EPROM, SD Card, etc.
 
 **Single Port BRAM Configuration**
-
-![image](https://github.com/user-attachments/assets/924462b7-3005-433a-8cb9-3938696c84ea)
+  <img src="https://github.com/user-attachments/assets/924462b7-3005-433a-8cb9-3938696c84ea" width="300"/>
 
 
 The Single Port Block RAM configuration is useful when there is just one interface that needs to 
@@ -179,8 +179,8 @@ on Port A, you can’t do both at the same time. If you want to read and write d
 will need a Dual Port Block RAM!
 
 **Dual Port BRAM Configuration**
+  <img src="https://github.com/user-attachments/assets/de5acfb9-ff17-4dc3-ac7c-b167c948afc3" width="300"/>
 
-![image](https://github.com/user-attachments/assets/de5acfb9-ff17-4dc3-ac7c-b167c948afc3)
 
 
 The Dual Port Block RAM (or DPRAM) configuration behaves exactly the same way as the single 
