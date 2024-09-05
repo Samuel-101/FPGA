@@ -52,7 +52,8 @@ logic function. The individual CLB contains a number of discrete logic component
 tables (LUTs) and flip-flops.
 
 ## Flip-Flops
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/8efa6daa-739e-4b5e-b7a6-68aff1ababc0)
+
 
 A flip-flop is a circuit that has two stable states and can be used to store state information. Flip-flops 
 are binary shift registers that synchronize logic and save logical states between clock cycles within an 
