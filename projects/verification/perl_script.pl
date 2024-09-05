@@ -1,7 +1,7 @@
     use strict;
     use warnings;
 
-    my $vhdl_file = "half_adder .vhdl";
+    my $vhdl_file = "half_adder.vhdl";
     my $tb_file = "half_adder_testbench.vhdl";
     my $vcd_file = "dump.vcd";
     my $perl_file = "verification_script.pl";
