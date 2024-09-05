@@ -55,11 +55,12 @@ A Perl script is used to compare the simulation results (outputs) with the expec
 ## Output
 
 #### RTL simulation from Quartus
+<img src="https://github.com/user-attachments/assets/026743ba-cc52-4503-a41a-30422801e83c" width="500"/>
 
-![image](https://github.com/user-attachments/assets/026743ba-cc52-4503-a41a-30422801e83c)
 
 #### Output from GTKwave
 
-![image](https://github.com/user-attachments/assets/04705465-1382-418d-a3d3-02729697d2f7)
+<img src="https://github.com/user-attachments/assets/04705465-1382-418d-a3d3-02729697d2f7" width="900"/>
+
 
 
