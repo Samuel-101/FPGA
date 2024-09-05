@@ -118,7 +118,7 @@ functions, leading to impractical sizes
 • May have limited flexibility in terms of logical operations that can be performed compared to 
 PLEs and other implementation methods
 
-## MUXIPLIERS
+## MULTIPLEXERS
   <img src="https://github.com/user-attachments/assets/b8a5224d-ce30-4cc1-b4eb-f845fc3db6c7" width="300"/>
 
 
@@ -160,6 +160,8 @@ Many processing functions do not fit within the configurable logic of an FPGA ch
 but that would be done with a device like an SRAM, DRAM, EPROM, SD Card, etc.
 
 **Single Port BRAM Configuration**
+
+
   <img src="https://github.com/user-attachments/assets/924462b7-3005-433a-8cb9-3938696c84ea" width="300"/>
 
 
@@ -179,6 +181,8 @@ on Port A, you can’t do both at the same time. If you want to read and write d
 will need a Dual Port Block RAM!
 
 **Dual Port BRAM Configuration**
+
+
   <img src="https://github.com/user-attachments/assets/de5acfb9-ff17-4dc3-ac7c-b167c948afc3" width="300"/>
 
 
