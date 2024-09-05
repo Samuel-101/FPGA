@@ -1,4 +1,4 @@
-The following links lead to Canva presentations created by our group during the initial stages of our research on FPGA, covering topics such as FPGA boards, design and applications, general and model-specific architecture, and an introduction to HDL programming (VHDL/Verilog):
+The following links lead to Canva presentations created by our group during the initial stages of our research on FPGA, covering topics such as FPGA boards, design and applications, general and model-specific architecture, and an introduction to HDL programming (VHDL/Verilog/System Verilog):
 
 - [FPGA Boards, Design, and Applications](https://www.canva.com/design/DAF53U3Spsg/vUmkkLwIJmmhaU_WjNTQhw/view?utm_content=DAF53U3Spsg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
  
